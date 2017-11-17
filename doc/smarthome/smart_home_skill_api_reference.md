@@ -2442,7 +2442,7 @@ GetAirQualityIndexRequest 例子：
 |Property|Description|Required|
 |---|---|---|
 | AQI | 表示当前空气质量 | no |
-| level | 表示当前空气质量水平,一级优(1)，二级良(2)，三级轻度污染(3)，四级中度污染(4)，直至五级重度污染(5)，六级严重污染(6) | Yes |  
+| level | 表示当前空气质量水平的描述,目前支持的空气质量等级描述包含 优，良，差, 轻度污染，中度污染，重度污染，严重污染.   | Yes |  
 
 GetAirQualityIndexResponse 例子：
 ```
@@ -2458,7 +2458,7 @@ GetAirQualityIndexResponse 例子：
             "value": 10
         },
         "level":{
-            "value":1
+            "value":"轻度污染"
         }
     }
 }
