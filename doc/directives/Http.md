@@ -30,7 +30,9 @@
       "data_type": "{{STRING}}",
       "data": "{{STRING}}"
     },
-    "method": "{{STRING}}"
+    "method": "{{STRING}}",
+    "connect_timeout":"{{STRING}}",
+    "max_time":"{{STRING}}"
   }
 }
 ```
